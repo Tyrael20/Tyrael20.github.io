@@ -1,0 +1,88 @@
+/* ESTILOS SOLO DEL MENU Y EL HEADER */
+
+html {
+    box-sizing: border-box;
+    background-color: #5770fdcb;
+  }
+  
+  *, *::after, *::before {
+    box-sizing: inherit;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+    font-smooth: auto;
+    font-weight: 300;
+    line-height: 1.75;
+    color: #5770fdcb;
+    overflow-x: hidden;
+  }
+  
+  img{
+  max-width: 350px;
+  }
+  
+  
+  /* ESTILOS DE LAS CAJAS */
+  
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    gap: 1rem;
+  }
+  
+  .caja1{
+    background-color: rgb(27, 174, 210);
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    border: 2px solid black;
+  
+  }
+  
+  .caja2{
+    background-color: rgb(27, 174, 210);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    border: 2px solid black;
+  }
+  
+  .caja3{
+    background-color: rgb(27, 174, 210);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 8;
+    border: 2px solid black;
+  }
+  
+  .caja4{
+    background-color: rgb(27, 174, 210);
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 5;
+    grid-row-end: 8;
+    border: 2px solid black;
+  }
+
+  .caja5{
+    background-color: rgb(27, 174, 210);
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border: 2px solid black;
+  }
